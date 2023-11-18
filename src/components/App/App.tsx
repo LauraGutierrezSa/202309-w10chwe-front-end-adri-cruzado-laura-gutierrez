@@ -1,11 +1,12 @@
 import { Routes, Route, Navigate } from "react-router-dom";
 import AppStyled from "./AppStyled";
+import Header from "../Header/Header";
 
 const App = (): React.ReactElement => {
   return (
     <AppStyled>
+      <Header />
       <main>
-        <h1 className="app__logo">Robopedia</h1>
         <Routes>
           <Route path="/" element={<Navigate to="robots" />} />
           <Route path="/robots" />
