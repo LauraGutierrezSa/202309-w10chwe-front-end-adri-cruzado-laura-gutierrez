@@ -6,6 +6,7 @@ const mainTheme: DefaultTheme = {
     accent: "#88aa88",
     light: "#aaddcc",
     dark: "#112200",
+    medium: "#557766",
   },
   typography: {
     mainFont: "'Roboto', sans-serif",
