@@ -7,7 +7,7 @@ interface FooterProps {
 const Footer = ({ text }: FooterProps): React.ReactElement => {
   return (
     <FooterStyled className="footer">
-      <span className="footer__copyright-notice">{text}</span>
+      <h2 className="footer__copyright-notice">{text}</h2>
       <div className="footer__icons">
         <a
           className="footer__social-media-link"
