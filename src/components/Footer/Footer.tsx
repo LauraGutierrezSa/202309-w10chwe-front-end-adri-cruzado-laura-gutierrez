@@ -1,10 +1,13 @@
+import FooterStyled from "./FooterStyled";
+
 interface FooterProps {
   text: string;
 }
 
 const Footer = ({ text }: FooterProps): React.ReactElement => {
   return (
-    <footer className="footer">
+    <FooterStyled className="footer">
+      <span className="footer__copyright-notice">{text}</span>
       <div className="footer__icons">
         <a
           className="footer__social-media-link"
@@ -29,9 +32,8 @@ const Footer = ({ text }: FooterProps): React.ReactElement => {
             className="footer__icon"
           />
         </a>
-        <span className="footer__copyright-notice">{text}</span>
       </div>
-    </footer>
+    </FooterStyled>
   );
 };
 

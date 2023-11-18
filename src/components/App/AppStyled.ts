@@ -5,7 +5,7 @@ const AppStyled = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  height: 100%;
 
   .app__logo {
     display: flex;
