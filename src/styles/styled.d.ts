@@ -7,6 +7,7 @@ declare module "styled-components" {
       accent: string;
       light: string;
       dark: string;
+      medium: string;
     };
     typography: {
       mainFont: string;
