@@ -10,6 +10,7 @@ const HeaderStyled = styled.header`
   justify-content: space-evenly;
   border: 4px solid ${({ theme }) => theme.colors.light};
   border-radius: 10px;
+  width: 100%;
 `;
 
 export default HeaderStyled;

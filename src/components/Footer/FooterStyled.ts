@@ -10,8 +10,7 @@ const FooterStyled = styled.footer`
   border: 4px solid ${({ theme }) => theme.colors.light};
   border-radius: 10px;
   width: 100%;
-  position: absolute;
-  bottom: 0;
+  margin-top: 15px;
 
   .footer {
     &__copyright-notice {
