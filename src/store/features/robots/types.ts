@@ -1,8 +1,8 @@
 export interface RobotStructureWithoutId {
   name: string;
-  image: string;
-  speed: string;
-  resistence: string;
+  imageUrl: string;
+  speed: number;
+  endurance: number;
 }
 
 export interface RobotStructure extends RobotStructureWithoutId {
